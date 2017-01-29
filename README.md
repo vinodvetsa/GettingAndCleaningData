@@ -11,8 +11,11 @@ In the same repository as that of extracted run_analysis.R is present
 Code flow:
 ## Step:1
 There are two data sets: xtrain and xtest
-
+Each of these datasets has a structure mentioned below.
  SubjectId  ActivityId  Measurements
+SubjectId is present in Subject_*.txt file / Activity is present in yt*.txt / measurements in x*.txt file
+(viz: xtrain : Subject_train.txt , ytrain.txt and xtrain.txt )
+ 
  
 Reads xtrain (subject_train.txt, y_train.txt X_train.txt) into three tables.
 All three are column binded to xtrain. After binding dimension will be : 7352  563
